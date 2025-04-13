@@ -31,6 +31,16 @@ const Index = () => {
             We're Building the Future of Agriculture — With You!
           </h1>
 
+          {/* Farmer image */}
+          <div className="w-full max-w-md mx-auto animate-fade-in">
+            <img 
+              src="https://images.unsplash.com/photo-1591672495379-8ae2185b5e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMGZhcm1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=80" 
+              alt="African farmers working in the field" 
+              className="rounded-lg shadow-md w-full object-cover h-52 sm:h-64"
+            />
+            <p className="text-xs text-agrineux-text/50 mt-1">Working together to transform African agriculture</p>
+          </div>
+
           {/* Subheading */}
           <p className="text-xl sm:text-2xl text-agrineux-text/90 font-medium animate-fade-in">
             Take our quick survey and shape AgriNeux's platform. It takes less than 5 minutes!
