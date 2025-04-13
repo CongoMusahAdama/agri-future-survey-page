@@ -1,9 +1,7 @@
-
 import React, { useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Index = () => {
-  // Add fade-in animation to elements when the page loads
   useEffect(() => {
     const elements = document.querySelectorAll('.animate-fade-in');
     elements.forEach((element, index) => {
@@ -13,40 +11,33 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-agrineux-background relative overflow-x-hidden">
-      {/* Background pattern */}
       <div className="absolute inset-0 bg-farm-pattern opacity-30" aria-hidden="true"></div>
       
-      {/* Content container */}
       <div className="container relative z-10 mx-auto px-4 py-12 sm:px-6 lg:px-8 flex flex-col items-center justify-center min-h-screen">
         <div className="max-w-3xl w-full mx-auto text-center space-y-8 sm:space-y-12">
-          {/* Header */}
           <header className="animate-fade-in">
             <h2 className="text-base sm:text-lg text-agrineux-text/80 font-medium tracking-wide">
               Transforming African Farmers, Trade, and Lives
             </h2>
           </header>
 
-          {/* Main heading */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-agrineux-text tracking-tight animate-fade-in">
             We're Building the Future of Agriculture — With You!
           </h1>
 
-          {/* Farmer image */}
           <div className="w-full max-w-md mx-auto animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1591672495379-8ae2185b5e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMGZhcm1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=80" 
-              alt="African farmers working in the field" 
+              src="/lovable-uploads/808d7cee-09fe-40aa-bed3-dd053dfbe249.png" 
+              alt="Smiling African farmer on a phone in a green field" 
               className="rounded-lg shadow-md w-full object-cover h-52 sm:h-64"
             />
-            <p className="text-xs text-agrineux-text/50 mt-1">Working together to transform African agriculture</p>
+            <p className="text-xs text-agrineux-text/50 mt-1">Empowering farmers through technology</p>
           </div>
 
-          {/* Subheading */}
           <p className="text-xl sm:text-2xl text-agrineux-text/90 font-medium animate-fade-in">
             Take our quick survey and shape AgriNeux's platform. It takes less than 5 minutes!
           </p>
 
-          {/* Description */}
           <div className="text-base sm:text-lg text-agrineux-text/80 animate-fade-in">
             <p className="max-w-2xl mx-auto">
               We're creating AgriNeux, an AI-powered platform for farmers, entrepreneurs, buyers, and investors. 
@@ -54,7 +45,6 @@ const Index = () => {
             </p>
           </div>
 
-          {/* CTA Button */}
           <div className="pt-4 animate-fade-in">
             <a 
               href="https://docs.google.com/forms/d/e/1FAIpQLSctaLQKBKgWoVOxVxMO3J7fQGxZB5_gvIdxWXLhJtmbOh4UzA/viewform?usp=sharing" 
@@ -68,7 +58,6 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Footer */}
         <footer className="w-full mt-auto pt-8 animate-fade-in">
           <div className="text-center text-agrineux-text/70 text-sm">
             <p>Thank you for helping us transform agriculture!</p>
